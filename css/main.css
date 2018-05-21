@@ -1,0 +1,53 @@
+/* the header for every page styling  */
+
+h1 {
+    background-image: url("../res/img-crest.png") ;
+    background-size: 128px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #005EA2;
+    height: 160px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Consolas;
+    font-size: 67px;
+    color: #FFFF;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* make sure that the last border does not have a bar. */
+li:last-child {
+    border-right: none;
+}
+
+h3 {
+    color: white;
+    font-family: Consolas;
+}
+
