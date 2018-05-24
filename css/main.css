@@ -36,12 +36,10 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
-/* make sure that the last border does not have a bar. */
 li:last-child {
     border-right: none;
 }
@@ -54,5 +52,18 @@ h3 {
 h4 {
     color: white;
     font-family: Consolas;
+}
+
+.feedback {
+    border: 1px solid yellow;
+    font-family: Consolas;
+    font-size: 20px;
+    padding: 2px 4px;
+    text-align: center;
+    color: white;
+}
+
+.entry {
+    color: white;
 }
 
