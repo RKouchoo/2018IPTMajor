@@ -22,7 +22,7 @@
     <?php include('../php/fb.php'); ?>
 
   </p>
-  <form action="feedbackdone.php" method="post" name="FeedBackForm" id="FeedBackForm">
+  <form action="../php/feedbackdone.php" method="post" name="FeedBackForm" id="FeedBackForm">
     <h3>Leave Your Feedback Here:</h3>
     <table class = "entry" width = "50%">
       <tbody>
