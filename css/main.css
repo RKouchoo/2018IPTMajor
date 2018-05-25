@@ -15,6 +15,12 @@ h1 {
     text-align: center;
 }
 
+
+div {
+    color: white;
+    font-family: Consolas;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
